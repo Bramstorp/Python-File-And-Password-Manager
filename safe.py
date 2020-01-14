@@ -7,7 +7,7 @@ from hashlib import sha256
 
 #here is the set username and password for login
 username = "test"
-password = "Datait2020!"
+password = "test123"
 
 #this will set the input to a variable 
 connect = raw_input("What is your username? ")
@@ -125,7 +125,7 @@ if (connect == username) and (connectps == password):
          
         #this is used for the sotring of the file 
         if input_ == "s":
-            PATH = raw_input("Type in the full path to the file you want to store.\nExample: /Users/mathiasvristbramstorp/Desktop/file.py\n")
+            PATH = raw_input("Type in the full path to the file you want to store.\nExample: /Users/username/Desktop/file.py\n")
              
             #this is all the files that can be used (more can be added)
             FILE_TYPES = {
